@@ -1,0 +1,51 @@
+name: jjimkong
+description: "재능교육 구내식당 및 주변 식당 정보 어플"
+publish_to: "none"
+version: 0.1.0
+
+flutter_launcher_name:
+  name: "JJIMKONG"
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  dio: ^5.7.0
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^5.2.1
+  flutter_secure_storage: ^4.2.1
+  flutter_svg: ^2.0.16
+  geolocator: ^13.0.2
+  kakao_map_plugin: ^0.3.2
+  widgetbook: ^3.10.1
+  widgetbook_annotation: ^3.2.0
+  webview_flutter: ^4.0.0
+  carousel_slider: ^5.0.0
+  smooth_page_indicator: ^1.2.0+3
+  url_launcher: ^6.3.1
+  google_sign_in: ^6.2.2
+  flutter_native_splash: ^2.4.3
+  flutter_launcher_icons: ^0.14.2
+  debounce_throttle: ^2.0.0
+  intl: ^0.20.1
+  sensors_plus: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  widgetbook_generator: ^3.9.1
+  build_runner: ^2.4.14
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/images/
+    - assets/fonts/
+
+  fonts:
+    - family: Pretendard
+      fonts:
+        - asset: assets/fonts/PretendardVariable.ttf

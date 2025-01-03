@@ -1,0 +1,11 @@
+framework module kakao_map_plugin {
+  umbrella header "kakao_map_plugin-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module kakao_map_plugin.Swift {
+  header "kakao_map_plugin-Swift.h"
+  requires objc
+}
